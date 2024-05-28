@@ -1,0 +1,209 @@
+.card{
+  border:1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(51, 48, 47, 0.189);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: rgb(53, 51, 51);
+}
+
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(87, 77, 77);
+}
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 50%,0.8);
+}
+
+.student p{
+  margin: 0;
+}
+
+.welcome{
+    font-size: 2.5em;
+    background-color: hsl(120,100%,42%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.login{
+  font-size: 2.5em;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 4px;
+}
+
+.color-picker{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h11{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px;
+  font-size: 3rem;
+}
+
+.color-display{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(224, 210, 210);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25s ease;
+    
+}
+
+.color-display p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(62, 58, 58);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.lubel{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(193, 166, 166);
+}
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.head{
+  font-size: 4rem;
+}
+.buto{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  background-color: rgb(31, 164, 31);
+}
+.buto1{
+  margin-left: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 8px 12px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  background-color: rgb(247, 95, 95);
+}
+.buto:hover{
+  background-color: green;
+}
+.buto1:hover{
+  background-color: red;
+}
+.moveu{
+  margin-left: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+  background-color: rgb(74, 74, 246);
+}
+.moveu:hover{
+  background-color: blue;
+}
+.inpu{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(102, 101, 101);
+  border-radius: 5px;
+  color: rgb(61, 61, 61);
+}
+.olt{
+  padding: 0px;
+}
+.lit{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgb(214, 214, 214);
+  margin-bottom: 10px;
+  border: 3px solid rgb(156, 155, 155);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.clock-container{
+     background-image: url(./assets/profi.png);
+     background-position: center;
+     background-attachment: fixed;
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 700px;
+     margin-left: 20rem;
+     padding: 17px;
+     height: 200px;
+     border: 4px solid rgb(5, 224, 5);
+     border-radius: 7px;
+     box-shadow: 6px 6px 6px rgb(74, 74, 74);
+}
+.clock{
+  backdrop-filter: blur(5px);
+  width: auto;
+  padding: 10px 0;
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgb(81, 78, 78);
+}
+
+
+
